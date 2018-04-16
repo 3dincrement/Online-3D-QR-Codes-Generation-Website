@@ -14,4 +14,4 @@ Customize: Height, Size(Giving users the minimum size and height reference)
 
 Input: QR Image and an arbitrary 3D surface
 
-Output: 3D QR Codes on arbitrary surfaces# Online-3D-QR-Codes-Generation-Website
+Output: 3D QR Codes on arbitrary surfaces
