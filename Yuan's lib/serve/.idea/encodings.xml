@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/config.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hollow/config.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hollow/data/233.txt" charset="UTF-8" />
   </component>
 </project>
