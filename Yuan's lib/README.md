@@ -12,7 +12,8 @@ demo.html里已经基本表明了用法
 ## serve
 服务后端  
 * 配置文件 config.json 决定服务端口
-* 启动serve.py即可启动服务器(需要python36环境及tornado)
+* 启动serve.py即可启动服务器  
+###### 依赖 tornado opencv-python python3.6
 ### hollow
 * 功能: 前端传回二维码图片base64  
 后端接受 调用cpp 生成镂空stl 并将stl的url传回前端
@@ -25,7 +26,7 @@ x为输出stl 文件的url
 例"http://localhost:2000/hollow"
 * cpp部分接口:  
 传入参数1: 空 系统默认  
-传入参数2: jpg图片的相对路径 例如: ./data/img1526983538974.jpg
+传入参数2: png图片的相对路径 例如: ./data/img1526983538974.png
 传入参数3: stl图片应该输出的路径及文件名   
 例如: ./data/stl1526983538974.stl  
 * cpp可执行文件放置:
